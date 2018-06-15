@@ -1,0 +1,421 @@
+/* BODY DFAULT */
+.gr-wht-div {
+    background-color: #fff;
+    color: #000;
+}
+.gr-blk-div {
+    background-color: #000;
+    color: #fff;
+}
+.gr-cent-cnt {
+    text-align: center;
+}
+.gr-rgt-cnt {
+    text-align: right;
+}
+.gr-lft-cnt {
+    text-align: left;
+}
+.gr-gfTitle h1, h2, h3 {
+    font-family: 'geforcebold';
+    font-size: 22px;    
+}
+.gr-gfTitle-mgin h2, h3 {
+    margin-top: 15px;
+}
+.gr-tlTitle h4 {
+    font-family:'latolight';
+    font-size: 20px;
+    margin: 15px;
+}
+.gr-tlTitle-head {
+    font-family:'latolight';
+    font-size: 15px;
+    margin: -12px;
+}
+.gr-tlTitle h5, {
+    font-family:'latolight'
+    font-size: 20px;
+}
+.gr-prgfo p {
+    font-family:'latolight';
+    font-size: 20px;
+    line-height: 1.6;
+}
+.gr-prgfo2 p {
+    font-family:'latolight';
+    font-size: 20px;
+    line-height: 1.5;
+}
+.gr-mrgnBt-dft{
+    margin-bottom: 45px;
+}
+.gr-mrgnTop-dft {
+    margin-top: 30px;    
+}
+.gr-prgfo-ajst p {
+    margin: 15px;
+}
+.gr-prgfo-ajst2 p {
+    margin: 0 15px 25px 0;
+}
+.gr-div-ajst{
+    margin: 10px 0 35px 25px;
+}
+.gr-prfo-ajst3 p{
+    margin-right: 20px;
+}
+.gr-imgSize {
+    width: 70%;
+    height: auto;
+}
+
+/* separadores */
+
+.gr-sep1{     
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color: #00cdc0;  
+    }
+.gr-sep2{     
+    border-right-style: none;
+    border-right-width: 2px;
+    border-right-color: #00cdc0;  
+    }
+.gr-sep3{     
+    border-bottom-style: solid;
+    border-bottom-width: 7px;
+    border-bottom-color: #fff;  
+    }
+
+/* Games logos */
+
+.gr-imgList{    
+    text-align: center;
+    margin: 10px 0 25px 0;   
+    
+}
+/*CARCT E BENEFICIOS */
+
+.gr-mrgnLft {
+    margin-left: 30px;
+    padding-top: 2px;
+}
+/* tabela */
+
+
+.gr-ltTitleMem h4{
+    font-family: 'latolight';
+    margin: 20px 0 20px 0;    
+}
+
+.gr-table {  
+    width:100%;    
+}
+.gr-table-ajt{   
+    margin: 0 20px 20px 0;
+}
+.gr-table-p {
+    font-family: 'latolight';
+    font-size: 15px;
+    line-height: 1.6;
+}
+.gr-table-lft{
+    border-left-color: #00cdc0;
+    border-left-style: solid;
+    border-left-width: 2px;
+    padding-left: 15px;
+}
+.gr-table td {    
+    border-bottom-style: solid;
+    border-bottom-color: #00cdc0;
+    border-bottom-width: 2px;
+}
+.gr-imgTble2 {
+        margin-top: 45px;
+}
+.gr-imgTble {
+    margin-top: 10px;
+    padding-bottom: 45px;
+} 
+/* PROCESSADOR - FONTE - MEMORIA */
+
+.gr-imgPFM {
+    text-align: center;
+    margin-top: 25px;
+}
+.gr-div-PFM p{
+    margin: 10px 10px 10px 0;
+}
+
+/* monitor */
+
+.gr-mitr-gfTitle h3 {
+    font-family: 'geforcebold';
+    font-size: 20px;
+    padding-top: 15px;
+    
+}
+.gr-mitr-gfTitle{
+    margin-left: 25px;    
+}
+/*GRADIENTE*/
+.gr-grad {
+     background: linear-gradient(to right, #146b52 , #061431);
+}
+.gr-grad-mrgn{
+    padding: 5px 0 5px 0;
+}
+.gr-grad-cnt p{
+    font-family: 'latoregular';
+    text-align: center;   
+    font-size: 12px;
+    line-height: 1.6;
+    color: #5dc8d8;
+    margin: 15px;
+    
+}
+.gr-grad-sep {    
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color: #00cdc0;
+}
+.gr-grad-ajst0{
+    padding-top: 10px;
+}
+.gr-grad-ajst1{
+    padding-top: 10px;
+}
+.gr-grad-ajst2{
+    padding-top: 25px;
+}
+
+/* GABINETE */
+
+.gr-gbet-bg {
+    background-image:url("../imgs/014-banner.jpg"); 
+    background-repeat: no-repeat;  
+    background-position: center;
+    height: 85px;        
+}
+.gr-gbetTitle h2 {
+    font-family: 'geforcebold';
+    color: #fff;    
+    font-size: 25px;
+    padding-top: 25px;
+}
+.gr-gbdnt-txt3 p{
+    margin-top: 10px;
+    font-size: 15px;
+    text-align:left;    
+}
+.gr-gbnt-ajst{
+    padding-top: 32px;    
+}
+
+/* FOOTER */
+
+.gr-footer{
+    height: 35px;
+    margin-top: 25px;
+}
+
+
+
+/* 320 a 720 */
+
+@media (min-width:380px){
+    .gr-gfTitle h1, h2, h3 {
+        font-family: 'geforcebold';
+    }
+    .gr-imgPFM-ajst {
+        text-align: center;
+        margin-top: 148px;
+    }
+    .gr-imgMemo-ajst {
+        text-align: center;
+        margin-top: 228px;
+    }
+}
+
+/* 720 a 1200 PIXELS */
+
+@media (min-width: 720px) {
+    
+    .gr-gfTitle h1, h2, h3 {
+        font-family: 'geforcebold';
+        font-size: 28px;        
+    }
+    .gr-tlTitle-head {
+        font-family:'latolight';
+        font-size: 23px;        
+    }
+    .gr-gfTitle-mgin h2, h3 {
+        margin-top: 30px;
+    }    
+    .gr-mitr-gfTitle h3 {
+        font-family: 'geforcebold';
+        font-size: 25px; 
+    }
+    .gr-tlTitle h4 {
+        font-family:'latolight';
+        font-size: 25px;
+    }  
+    .gr-ltTitleMem h4{
+        font-family: 'latolight';
+        margin: 20px 0 20px 0;    
+    }
+    .gr-grad-cnt p {
+        font-family: 'latoregular';        
+        font-size: 15px;
+        line-height: 1.1;        
+        margin: 15px;
+    }    
+    .gr-table-p {
+        font-family: 'latolight';
+        font-size: 20px;
+        line-height: 1.6;
+    }
+    .gr-gbdnt-txt3 p { 
+        font-family: 'latolight';  
+        font-size: 15px;        
+    }
+    
+    
+    .gr-imgPFM-ajst {
+        text-align: center;
+        margin-top: 148px;
+    }
+    .gr-imgMemo-ajst {
+        text-align: center;
+        margin-top: 228px;
+    }
+}
+
+/* 920 PIXELS */
+
+
+@media (min-width: 920px) {
+    
+    .gr-grad-cnt p {
+        font-family: 'latoregular';        
+        font-size: 18px;
+        line-height: 1.6;
+    }
+    .gr-gbdnt-txt3 p {
+        font-family: 'latoregular';  
+        font-size: 18px;        
+    }
+}
+
+/* 1200 PIXELS */
+
+
+@media (min-width: 1200px) {
+    .gr-gfTitle h1, h2, h3 {
+        font-family: 'geforcebold';
+        font-size: 35px;        
+    }
+    .gr-tlTitle-head {
+        font-family:'latolight';
+        font-size: 28px;        
+    } 
+    .gr-gfTitle-mgin h2, h3 {
+        margin-top: 50px;
+    }
+    
+    .gr-tlTitle h4 {
+        font-family: 'latolight';
+        font-size: 28px;
+        margin: 1px;
+    }
+    .gr-ltTitleMem h4{
+        font-family: 'latolight';
+        margin: 20px 0 20px 0;    
+    }
+    .gr-prgfo p {
+        font-family: 'latolight';
+        font-size: 25px;
+        line-height: 1.6;
+    }
+    .gr-prgfo2 p {
+        font-family: 'latolight';
+        font-size: 25px;
+        line-height: 1.6;
+    }
+    .gr-prfo-ajst3 p{
+        margin-right: 30px;
+}
+    .gr-table-p {
+        font-family: 'latolight';
+        font-size: 25px;
+        line-height: 1.6;
+    }
+    .gr-grad-cnt p {
+        font-family: 'latoregular';        
+        font-size: 18px;
+        line-height: 1.6;        
+        margin: 15px;
+    }
+    .gr-gbdnt-txt3 p {
+        font-family: 'latoregular';  
+        font-size: 18px;        
+    }   
+    
+    .gr-imgPFM-ajst {
+        text-align: center;
+        margin-top: 138px;
+    }
+    .gr-imgMemo-ajst {
+        text-align: center;
+        margin-top: 148px;
+    }
+}
+
+
+@font-face {
+    font-family: 'geforcebold';
+    src: url('../fonts/geforce/gefo_bold1-webfont.woff2') format('woff2'),
+         url('../fonts/geforce/gefo_bold1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'geforcelight';
+    src: url('../fonts/geforce/gefo_light1-webfont.woff2') format('woff2'),
+         url('../fonts/geforce/gefo_light1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* lato */
+
+@font-face {
+    font-family: 'latobold';
+    src: url('../fonts/lato/lato-bold-webfont.woff2') format('woff2'),
+         url('../fonts/lato/lato-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'latolight';
+    src: url('../fonts/lato/lato-light-webfont.woff2') format('woff2'),
+         url('../fonts/lato/lato-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'latoregular';
+    src: url('../fonts/lato/lato-regular-webfont.woff2') format('woff2'),
+         url('../fonts/lato/lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*classe para corrigir erro do Bootstrap */
+.img-responsive {
+    width: 100%;
+}
+
